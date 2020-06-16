@@ -11,3 +11,11 @@ Predicting the sentiment of a certain tweet around nuclear energy, allows compan
 
 
 Our dataset contained 3,000 tweets scraped via Twint from Twitter using the search term 'Nuclear Energy'. All tweets were pulled from 2020. The sentiment of each tweet was trained using Vader and modification of its metrics. The three sentiments used in this project were: Positive, Negative and Neutral.
+
+
+Contents of this repository: 
+
+1. Data folder - all relevant csv files 
+2. Working Notebook folder - twint script, cleaning & eda, modeling 
+3. Final.ipynb - final notebook 
+4. Nuclear Tweets.pdf - presentation deck
