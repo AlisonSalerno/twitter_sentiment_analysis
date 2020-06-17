@@ -18,9 +18,9 @@ Our dataset contained 3,000 tweets scraped via Twint from Twitter using the sear
 
 ## Word Frequencies:
 
-![](pos.png)
-![](neg.png)
-![](neu.png)
+![](/images/pos.png)
+![](/images/neg.png)
+![](/images/neu.png)
 
 
 ## Conclusion:
@@ -34,9 +34,9 @@ One of the top positive words is safe, which companies can then emphasize when p
 
 
 
-![](svmpos.png)
-![](svmneg.png)
-![](svmneu.png)
+![](/images/svmpos.png)
+![](/images/svmneg.png)
+![](/images/svmneu.png)
 
 
 ## Contents of this repository: 
