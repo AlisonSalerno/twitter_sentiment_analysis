@@ -10,10 +10,36 @@ Predicting the sentiment of a certain tweet around nuclear energy, allows compan
   - Highlighting the positive words can amplify the support of nuclear energy.
 
 
+## Data:
+
 Our dataset contained 3,000 tweets scraped via Twint from Twitter using the search term 'Nuclear Energy'. All tweets were pulled from 2020. The sentiment of each tweet was trained using Vader and modification of its metrics. The three sentiments used in this project were: Positive, Negative and Neutral.
 
+![](target.png)
 
-Contents of this repository: 
+## Word Frequencies:
+
+![](pos.png)
+![](neg.png)
+![](neu.png)
+
+
+## Conclusion:
+
+The use of social media such as Twitter has been such an important tool for capturing public opinion on any and all topics. This is vital information for companies and policymakers alike. Classifying the sentiment of tweets around nuclear energy shines a light on specific issues and themes regarding this topic. Using SVM we were able to predict sentiment with over 82% accuracy and therefore, extract key words and themes as they relate to each sentiment. These insights can be really useful for marketing and PR strategies, whether its for an election or pitching a nuclear energy project.
+
+For example, the top negative word from our analysis is "waste", which concludes that the public's concern is greatly around nuclear waste and its consequences rather than the energy source itself. Companies/Lawmakers can then reassure the public that this is also their main concern regarding nuclear and that may help change negative opinions.
+
+One of the top positive words is safe, which companies can then emphasize when promoting nuclear energy.
+
+
+
+
+![](svmpos.png)
+![](svmneg.png)
+![](svmneu.png)
+
+
+## Contents of this repository: 
 
 1. Data folder - all relevant csv files 
 2. Working Notebook folder - twint script, cleaning & eda, modeling 
