@@ -16,7 +16,10 @@ Our dataset contained 3,000 tweets scraped via Twint from Twitter using the sear
 
 ![](/images/target.png)
 
-## Word Frequencies:
+## EDA - Word Frequencies:
+
+Our inital EDA focused on visualizing word frequency for each sentiment class and analyzing the most frequent words of each. 
+We also were able to analyze that the sentiment distribution in our dataset was unbalanced - most tweets fell under 'neutral' followed by positive and then negative.
 
 ![](/images/pos.png)
 ![](/images/neg.png)
