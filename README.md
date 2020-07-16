@@ -18,7 +18,7 @@ Our dataset contained 3,000 tweets scraped via Twint from Twitter using the sear
 
 ## EDA - Word Frequencies:
 
-Our inital EDA focused on visualizing word frequency for each sentiment class and analyzing the most frequent words of each. Clear differences in vocabulary was observed: 
+Our inital EDA focused on visualizing word frequency for each sentiment class and analyzing the most frequent words of each. Clear differences in vocabulary were observed: 
 Positive - Clean, Support, Need
 Negative - Waste, Danger
 Neutral - Research/ informational topics such as different types of renewable energy.
